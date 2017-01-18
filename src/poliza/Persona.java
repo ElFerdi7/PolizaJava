@@ -102,6 +102,8 @@ public class Persona {
         this.direccion = direccion;
         this.dni = dni;
         this.edad = edad;
+        this.casadocon = casadocon;
+        
         
     }
 
