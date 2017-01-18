@@ -14,8 +14,28 @@ public class Poliza {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private String polizaTipo;
+    private int id;
+
+    public String getPolizaTipo() {
+        return polizaTipo;
+    }
+
+    public void setPolizaTipo(String polizaTipo) {
+        this.polizaTipo = polizaTipo;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Poliza(String polizaTipo, int id) {
+        this.polizaTipo = polizaTipo;
+        this.id = id;
     }
     
 }
