@@ -5,10 +5,13 @@
  */
 package poliza;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author a022583952e
  */
 public class Contrato {
     
+    ArrayList<Persona>personas=new ArrayList<Persona>();
 }

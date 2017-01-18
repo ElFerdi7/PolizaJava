@@ -5,6 +5,8 @@
  */
 package poliza;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author a022583952e
@@ -14,7 +16,8 @@ public class Compañia {
     /**
      * Variables
      */
-    String id, nombre;
+    private String id, nombre;
+    ArrayList<Contrato>contratoss=new ArrayList<Contrato>();
 
     /**
      *
