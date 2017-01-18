@@ -19,11 +19,21 @@ public class Persona {
     private String nombre, direccion, dni;
     private int edad;
     ArrayList<Contrato>contratos=new ArrayList<Contrato>();
+    private Persona casadocon;
+    
+    public Persona getCasadocon() {
+        return casadocon;
+    }
+
+    public void setCasadocon(Persona casadocon) {
+        this.casadocon = casadocon;
+    }
 
     /**
      *
      * @return
      */
+   
     public String getNombre() {
         return nombre;
     }
@@ -92,6 +102,7 @@ public class Persona {
         this.direccion = direccion;
         this.dni = dni;
         this.edad = edad;
+        
     }
 
 }
